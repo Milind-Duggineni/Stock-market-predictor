@@ -1,0 +1,9 @@
+2025-11-11 14:18:20,413 [INFO] Fetching data for AAPL from 2018-01-01 to 2025-12-31
+2025-11-11 14:18:26,021 [INFO] Data for AAPL fetched: 1977 rows
+2025-11-11 14:18:26,040 [INFO] Saved raw data to data/raw/AAPL.csv
+2025-11-11 14:18:26,040 [INFO] Fetching data for SPY from 2018-01-01 to 2025-12-31
+2025-11-11 14:18:26,849 [INFO] Data for SPY fetched: 1977 rows
+2025-11-11 14:18:26,862 [INFO] Saved raw data to data/raw/SPY.csv
+2025-11-11 14:18:26,863 [INFO] Fetching data for TSLA from 2018-01-01 to 2025-12-31
+2025-11-11 14:18:27,326 [INFO] Data for TSLA fetched: 1977 rows
+2025-11-11 14:18:27,341 [INFO] Saved raw data to data/raw/TSLA.csv

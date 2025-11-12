@@ -1,0 +1,11 @@
+2025-11-11 16:30:35,657 [WARNING] From C:\Users\duggi\OneDrive\Documents\QuantDev\quantenv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-11-11 16:30:36,751 [WARNING] From C:\Users\duggi\OneDrive\Documents\QuantDev\quantenv\Lib\site-packages\keras\src\layers\rnn\lstm.py:148: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-11-11 16:30:37,196 [WARNING] From C:\Users\duggi\OneDrive\Documents\QuantDev\quantenv\Lib\site-packages\keras\src\optimizers\__init__.py:309: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+2025-11-11 16:30:37,244 [INFO] Training LSTM for AAPL
+2025-11-11 16:30:37,776 [WARNING] From C:\Users\duggi\OneDrive\Documents\QuantDev\quantenv\Lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-11-11 16:30:44,461 [INFO] Assets written to: models\trained\AAPL_lstm\assets
+2025-11-11 16:30:44,551 [INFO] LSTM trained and saved for AAPL

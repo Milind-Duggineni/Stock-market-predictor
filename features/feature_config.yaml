@@ -1,0 +1,25 @@
+# features/feature_config.yaml
+momentum:
+  column: "Close"
+  window: 5
+
+mean_reversion:
+  column: "Close"
+  window: 10
+
+volatility:
+  column: "Close"
+  window: 10
+
+bollinger:
+  column: "Close"
+  window: 20
+  n_std: 2
+
+ema:
+  column: "Close"
+  span: 20
+
+rsi:
+  column: "Close"
+  window: 14

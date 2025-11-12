@@ -1,0 +1,67 @@
+2025-11-11 16:34:02,430 [WARNING] From C:\Users\duggi\OneDrive\Documents\QuantDev\quantenv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-11-11 16:34:03,145 [INFO] [AAPL] Feature shape: (1364, 12), Target shape: (1364,)
+2025-11-11 16:34:03,145 [INFO] [AAPL] Any NaNs? False | Any infs? False
+2025-11-11 16:34:03,287 [WARNING] From C:\Users\duggi\OneDrive\Documents\QuantDev\quantenv\Lib\site-packages\keras\src\layers\rnn\lstm.py:148: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-11-11 16:34:03,852 [WARNING] From C:\Users\duggi\OneDrive\Documents\QuantDev\quantenv\Lib\site-packages\keras\src\optimizers\__init__.py:309: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+2025-11-11 16:34:03,883 [INFO] Training LSTM for AAPL
+2025-11-11 16:34:04,508 [WARNING] From C:\Users\duggi\OneDrive\Documents\QuantDev\quantenv\Lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-11-11 16:34:09,920 [INFO] Assets written to: models\checkpoints\AAPL_lstm.ckpt\assets
+2025-11-11 16:34:13,873 [INFO] Assets written to: models\checkpoints\AAPL_lstm.ckpt\assets
+2025-11-11 16:34:17,297 [INFO] Assets written to: models\checkpoints\AAPL_lstm.ckpt\assets
+2025-11-11 16:34:20,456 [INFO] Assets written to: models\checkpoints\AAPL_lstm.ckpt\assets
+2025-11-11 16:34:23,730 [INFO] Assets written to: models\checkpoints\AAPL_lstm.ckpt\assets
+2025-11-11 16:34:27,271 [INFO] Assets written to: models\checkpoints\AAPL_lstm.ckpt\assets
+2025-11-11 16:34:30,441 [INFO] Assets written to: models\checkpoints\AAPL_lstm.ckpt\assets
+2025-11-11 16:34:34,017 [INFO] Assets written to: models\checkpoints\AAPL_lstm.ckpt\assets
+2025-11-11 16:34:37,231 [INFO] Assets written to: models\checkpoints\AAPL_lstm.ckpt\assets
+2025-11-11 16:34:40,564 [INFO] Assets written to: models\checkpoints\AAPL_lstm.ckpt\assets
+2025-11-11 16:34:43,999 [INFO] Assets written to: models\trained\AAPL_lstm\assets
+2025-11-11 16:34:44,086 [INFO] LSTM trained and saved for AAPL
+2025-11-11 16:34:44,086 [INFO] Training XGBoost for AAPL
+2025-11-11 16:34:44,252 [INFO] [AAPL] Fold 1 MSE: 0.013799
+2025-11-11 16:34:44,338 [INFO] [AAPL] Fold 2 MSE: 0.007276
+2025-11-11 16:34:44,426 [INFO] [AAPL] Fold 3 MSE: 0.000130
+2025-11-11 16:34:44,430 [INFO] XGBoost trained and saved for AAPL | Best MSE: 0.000130
+2025-11-11 16:34:44,503 [INFO] [SPY] Feature shape: (1364, 12), Target shape: (1364,)
+2025-11-11 16:34:44,504 [INFO] [SPY] Any NaNs? False | Any infs? False
+2025-11-11 16:34:44,758 [INFO] Training LSTM for SPY
+2025-11-11 16:34:50,210 [INFO] Assets written to: models\checkpoints\SPY_lstm.ckpt\assets
+2025-11-11 16:34:54,436 [INFO] Assets written to: models\checkpoints\SPY_lstm.ckpt\assets
+2025-11-11 16:34:57,569 [INFO] Assets written to: models\checkpoints\SPY_lstm.ckpt\assets
+2025-11-11 16:35:00,768 [INFO] Assets written to: models\checkpoints\SPY_lstm.ckpt\assets
+2025-11-11 16:35:04,418 [INFO] Assets written to: models\checkpoints\SPY_lstm.ckpt\assets
+2025-11-11 16:35:07,621 [INFO] Assets written to: models\checkpoints\SPY_lstm.ckpt\assets
+2025-11-11 16:35:11,299 [INFO] Assets written to: models\checkpoints\SPY_lstm.ckpt\assets
+2025-11-11 16:35:14,460 [INFO] Assets written to: models\checkpoints\SPY_lstm.ckpt\assets
+2025-11-11 16:35:17,779 [INFO] Assets written to: models\checkpoints\SPY_lstm.ckpt\assets
+2025-11-11 16:35:21,548 [INFO] Assets written to: models\trained\SPY_lstm\assets
+2025-11-11 16:35:21,627 [INFO] LSTM trained and saved for SPY
+2025-11-11 16:35:21,627 [INFO] Training XGBoost for SPY
+2025-11-11 16:35:21,858 [INFO] [SPY] Fold 1 MSE: 0.003063
+2025-11-11 16:35:21,951 [INFO] [SPY] Fold 2 MSE: 0.025609
+2025-11-11 16:35:22,024 [INFO] [SPY] Fold 3 MSE: 0.000037
+2025-11-11 16:35:22,028 [INFO] XGBoost trained and saved for SPY | Best MSE: 0.000037
+2025-11-11 16:35:22,095 [INFO] [TSLA] Feature shape: (1364, 12), Target shape: (1364,)
+2025-11-11 16:35:22,095 [INFO] [TSLA] Any NaNs? False | Any infs? False
+2025-11-11 16:35:22,364 [INFO] Training LSTM for TSLA
+2025-11-11 16:35:28,525 [INFO] Assets written to: models\checkpoints\TSLA_lstm.ckpt\assets
+2025-11-11 16:35:32,746 [INFO] Assets written to: models\checkpoints\TSLA_lstm.ckpt\assets
+2025-11-11 16:35:37,044 [INFO] Assets written to: models\checkpoints\TSLA_lstm.ckpt\assets
+2025-11-11 16:35:40,578 [INFO] Assets written to: models\checkpoints\TSLA_lstm.ckpt\assets
+2025-11-11 16:35:43,653 [INFO] Assets written to: models\checkpoints\TSLA_lstm.ckpt\assets
+2025-11-11 16:35:46,809 [INFO] Assets written to: models\checkpoints\TSLA_lstm.ckpt\assets
+2025-11-11 16:35:51,683 [INFO] Assets written to: models\checkpoints\TSLA_lstm.ckpt\assets
+2025-11-11 16:35:56,374 [INFO] Assets written to: models\checkpoints\TSLA_lstm.ckpt\assets
+2025-11-11 16:36:01,416 [INFO] Assets written to: models\checkpoints\TSLA_lstm.ckpt\assets
+2025-11-11 16:36:05,777 [INFO] Assets written to: models\checkpoints\TSLA_lstm.ckpt\assets
+2025-11-11 16:36:09,287 [INFO] Assets written to: models\trained\TSLA_lstm\assets
+2025-11-11 16:36:09,368 [INFO] LSTM trained and saved for TSLA
+2025-11-11 16:36:09,368 [INFO] Training XGBoost for TSLA
+2025-11-11 16:36:09,491 [INFO] [TSLA] Fold 1 MSE: 0.011008
+2025-11-11 16:36:09,572 [INFO] [TSLA] Fold 2 MSE: 0.062149
+2025-11-11 16:36:09,646 [INFO] [TSLA] Fold 3 MSE: 0.000186
+2025-11-11 16:36:09,650 [INFO] XGBoost trained and saved for TSLA | Best MSE: 0.000186
